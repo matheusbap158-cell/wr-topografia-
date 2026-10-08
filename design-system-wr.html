@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design system | WR Topografia e Projetos</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg-950:#04070B; --bg-900:#08111A; --bg-800:#0D1B28;
+  --cyan-400:#43C3F0; --cyan-500:#2AA6D6; --cyan-700:#176C93;
+  --copper-400:#F08A4B; --copper-500:#E27A3A; --copper-600:#C4642A;
+  --bronze-300:#E9D3A8;
+  --paper-50:#F2F6F8; --paper-100:#E4ECF0;
+  --ink:#0A1A24; --muted:#475F6D;
+  --text-on-dark:#EAF2F6; --muted-on-dark:#9FB4C0;
+  --wa-500:#25D366; --alert-500:#E5624A;
+  --line:rgba(255,255,255,.1);
+  --font-display:'Sora',system-ui,sans-serif;
+  --font-body:'Inter',-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'JetBrains Mono',ui-monospace,monospace;
+  --r-ctl:10px; --r-card:14px; --r-pill:999px;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg-950);color:var(--text-on-dark);font-family:var(--font-body);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--font-display);margin:0;letter-spacing:-.02em}
+h1{font-size:clamp(32px,6vw,52px);line-height:1.06;font-weight:700}
+h2{font-size:28px;font-weight:700;margin:0 0 8px}
+.mono{font-family:var(--font-mono);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--cyan-400)}
+header{padding:64px 0 40px;border-bottom:1px solid var(--line)}
+header p{color:var(--muted-on-dark);max-width:40rem}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+.sub{color:var(--muted-on-dark);margin:0 0 28px;max-width:44rem}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+.sw{background:var(--bg-800);border:1px solid var(--line);border-radius:var(--r-card);overflow:hidden;cursor:pointer;text-align:left;color:inherit;font:inherit;padding:0}
+.sw:focus-visible,.btn:focus-visible,.chip:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--cyan-400);outline-offset:3px}
+.sw i{display:block;height:84px;border-bottom:1px solid var(--line)}
+.sw span{display:block;padding:12px 14px}
+.sw b{display:block;font-size:14px}
+.sw code{font-family:var(--font-mono);font-size:12.5px;color:var(--cyan-400)}
+.sw small{display:block;color:var(--muted-on-dark);font-size:12.5px;line-height:1.4;margin-top:4px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--cyan-400);color:var(--bg-950);padding:10px 18px;border-radius:var(--r-pill);font-weight:600;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.on{opacity:1}
+.type-row{display:grid;grid-template-columns:150px 1fr;gap:20px;align-items:baseline;padding:18px 0;border-top:1px solid var(--line)}
+.type-row small{color:var(--muted-on-dark);font-family:var(--font-mono);font-size:12px}
+@media (max-width:640px){.type-row{grid-template-columns:1fr;gap:4px}}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 28px;border-radius:var(--r-ctl);font:700 15px var(--font-body);letter-spacing:.02em;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--copper-500);color:var(--bg-950);box-shadow:0 10px 28px rgba(226,122,58,.22)}
+.btn-primary:hover{background:var(--copper-400)}
+.btn-primary:active{background:var(--copper-600)}
+.btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+.btn-ghost:hover{background:rgba(255,255,255,.08)}
+.btn-wa{background:var(--wa-500);color:var(--bg-950)}
+.row{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.chip{border:1px solid var(--line);background:transparent;color:var(--text-on-dark);padding:10px 18px;min-height:44px;border-radius:var(--r-pill);font:500 14px var(--font-body);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--cyan-400);color:var(--bg-950);border-color:var(--cyan-400)}
+label{display:block;font-size:13.5px;font-weight:600;margin-bottom:6px}
+input,select{width:100%;height:52px;background:var(--bg-800);color:var(--text-on-dark);border:1px solid rgba(255,255,255,.14);border-radius:var(--r-ctl);padding:0 16px;font:400 16px var(--font-body)}
+input:focus,select:focus{border-color:var(--cyan-400);box-shadow:0 0 0 3px rgba(67,195,240,.2)}
+input.err{border-color:var(--alert-500)}
+.errmsg{color:var(--alert-500);font-size:13px;margin-top:6px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--bg-800);border:1px solid var(--line);border-radius:var(--r-card);padding:26px;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--cyan-400);transform:translateY(-3px)}
+.card svg{width:34px;height:34px;stroke:var(--cyan-400);stroke-width:1.5;fill:none;margin-bottom:14px}
+.card h3{font-size:18px;font-weight:600;margin-bottom:8px}
+.card p{margin:0;color:var(--muted-on-dark);font-size:15px}
+.tag{display:inline-block;margin-top:14px;font-family:var(--font-mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--bronze-300)}
+.pend{display:inline-block;border:1px dashed currentColor;border-radius:4px;padding:0 8px;font-size:.88em;opacity:.9}
+.light{background:var(--paper-50);color:var(--ink);padding:28px;border-radius:var(--r-card)}
+.light .em{color:var(--cyan-700);font-weight:600}
+pre{background:var(--bg-800);border:1px solid var(--line);border-radius:var(--r-card);padding:20px;overflow:auto;font:13px/1.6 var(--font-mono);color:var(--text-on-dark)}
+ul.rules{padding-left:20px;color:var(--muted-on-dark)}
+ul.rules li{margin-bottom:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="mono">Connect Alpha · Design system</div>
+    <h1 style="margin:14px 0 16px">WR Topografia e Projetos</h1>
+    <p>Partimos da logo do cliente: bússola em cobre e bronze, "WR" em azul-ciano degradê e linha cobre. O ciano é a identidade, o cobre é a ação e o preto é o fundo da marca. Clique numa amostra de cor para copiar o código.</p>
+  </div>
+</header>
+
+<main>
+<section aria-labelledby="t-cores"><div class="wrap">
+  <h2 id="t-cores">1. Cores</h2>
+  <p class="sub">O verde do WhatsApp é exclusivo do botão de WhatsApp. Texto de corpo com contraste mínimo de 4,5:1.</p>
+  <div class="swatches" id="sw"></div>
+</div></section>
+
+<section aria-labelledby="t-tipo"><div class="wrap">
+  <h2 id="t-tipo">2. Tipografia</h2>
+  <p class="sub">Sora nos títulos, Inter no corpo e JetBrains Mono em coordenadas e rótulos técnicos.</p>
+  <div class="type-row"><small>H1 · 56/34 · 700</small><h1>Do terreno ao projeto, medido com precisão.</h1></div>
+  <div class="type-row"><small>H2 · 42/29 · 700</small><h2 style="font-size:clamp(29px,5vw,42px);line-height:1.1">Tudo o que o seu projeto precisa medir.</h2></div>
+  <div class="type-row"><small>H3 · 20/18 · 600</small><h3 style="font-size:20px;font-weight:600">Levantamento planialtimétrico cadastral</h3></div>
+  <div class="type-row"><small>Corpo · 17/16 · 400</small><p style="margin:0;font-size:17px;max-width:38rem">Levantamentos, locação, georreferenciamento, mapeamento por drone e equipe de topografia dentro da sua obra.</p></div>
+  <div class="type-row"><small>Mono · 12,5 · 500</small><span class="mono">19°55′00″ S · 43°53′09″ W</span></div>
+</div></section>
+
+<section aria-labelledby="t-comp"><div class="wrap">
+  <h2 id="t-comp">3. Componentes</h2>
+  <p class="sub">Botões, filtros, campos e card de serviço, com os estados de hover, foco e erro.</p>
+
+  <h3 style="margin:0 0 14px;font-size:16px">Botões</h3>
+  <div class="row" style="margin-bottom:36px">
+    <a class="btn btn-primary" href="#t-comp">Solicitar orçamento</a>
+    <a class="btn btn-ghost" href="#t-comp">Ver todos os serviços</a>
+    <a class="btn btn-wa" href="#t-comp">Chamar no WhatsApp</a>
+  </div>
+
+  <h3 style="margin:0 0 14px;font-size:16px">Filtro de serviços</h3>
+  <div class="row" id="chips" style="margin-bottom:36px">
+    <button class="chip" aria-pressed="true">Todos</button>
+    <button class="chip" aria-pressed="false">Terreno rural</button>
+    <button class="chip" aria-pressed="false">Obra</button>
+    <button class="chip" aria-pressed="false">Mapa por drone</button>
+    <button class="chip" aria-pressed="false">Usina solar</button>
+  </div>
+
+  <h3 style="margin:0 0 14px;font-size:16px">Campos de formulário</h3>
+  <div class="grid3" style="margin-bottom:36px">
+    <div><label for="f1">Nome</label><input id="f1" placeholder="Seu nome"></div>
+    <div><label for="f2">Serviço</label><select id="f2"><option>Georreferenciamento de imóveis rurais</option></select></div>
+    <div><label for="f3">Cidade do serviço (com erro)</label><input id="f3" class="err" aria-invalid="true" value=""><div class="errmsg">Informe a cidade do serviço.</div></div>
+  </div>
+
+  <h3 style="margin:0 0 14px;font-size:16px">Card de serviço</h3>
+  <div class="grid3" style="margin-bottom:36px">
+    <article class="card">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 24 12 12l5 7 4-5 7 10z"/><circle cx="24" cy="8" r="2.5"/></svg>
+      <h3>Levantamento planialtimétrico cadastral e mapeamento</h3>
+      <p>Registra a posição e a altura de tudo o que existe no terreno.</p>
+      <span class="tag">Indicado para: terreno, obra</span>
+    </article>
+    <article class="card">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3v26M3 16h26"/><circle cx="16" cy="16" r="7"/></svg>
+      <h3>Locação e nivelamento</h3>
+      <p>Leva o projeto do papel para o chão.</p>
+      <span class="tag">Indicado para: obra, indústria</span>
+    </article>
+  </div>
+
+  <h3 style="margin:0 0 14px;font-size:16px">Pendência visível</h3>
+  <p>Horário de atendimento: <span class="pend">[A CONFIRMAR]</span></p>
+</div></section>
+
+<section aria-labelledby="t-est"><div class="wrap">
+  <h2 id="t-est">4. Estética</h2>
+  <ul class="rules">
+    <li>Raios: 10 px nos controles, 14 px nos cards e 999 px nos chips.</li>
+    <li>Sombras quase ausentes: a profundidade vem de borda fina de 1 px (10% de branco) e de fundo mais claro. Só o botão primário tem brilho cobre.</li>
+    <li>Espaçamento em múltiplos de 8: 8, 16, 24, 32, 48, 64, 96 px.</li>
+    <li>Curvas de nível e grade de coordenadas como textura, entre 6% e 14% de opacidade.</li>
+    <li>Movimento sutil (bússola, linhas de nível, revelação ao rolar), desligado em <code>prefers-reduced-motion</code>.</li>
+  </ul>
+  <div class="light" style="margin-top:20px">
+    <b>Em fundo claro</b> o texto usa <span class="em">ciano profundo #176C93</span> para destaque e tinta #0A1A24 no corpo.
+  </div>
+</div></section>
+
+<section aria-labelledby="t-wa"><div class="wrap">
+  <h2 id="t-wa">5. Conversão para WhatsApp</h2>
+  <ul class="rules">
+    <li>CTA no cabeçalho, no hero, depois do catálogo, no "Quem somos" e no fim.</li>
+    <li>Cada card leva ao formulário com o serviço já escolhido; a mensagem do WhatsApp chega dizendo qual serviço a pessoa quer.</li>
+    <li>O guia "Do que você precisa?" tira a dúvida de quem não conhece o nome técnico do serviço.</li>
+    <li>Botão flutuante sempre visível no celular.</li>
+    <li>Autoridade: coordenadas reais da sede, os quatro produtos de aerolevantamento explicados e o fundador com nome e rosto.</li>
+  </ul>
+</div></section>
+
+<section aria-labelledby="t-css"><div class="wrap">
+  <h2 id="t-css">Tokens prontos (CSS)</h2>
+  <pre id="css"></pre>
+</div></section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite">Copiado</div>
+
+<script>
+(function(){
+  var cores=[
+    ['Fundo principal','--bg-950','#04070B','Hero, rodapé, seções escuras'],
+    ['Fundo alternado','--bg-900','#08111A','Seções escuras alternadas'],
+    ['Superfície','--bg-800','#0D1B28','Cards em fundo escuro'],
+    ['Ciano (identidade)','--cyan-400','#43C3F0','Destaques, ícones, links'],
+    ['Ciano médio','--cyan-500','#2AA6D6','Hover de links, linhas'],
+    ['Ciano profundo','--cyan-700','#176C93','Destaque em fundo claro (5,2:1)'],
+    ['Cobre (ação)','--copper-500','#E27A3A','Botão primário'],
+    ['Cobre claro','--copper-400','#F08A4B','Hover do botão'],
+    ['Cobre escuro','--copper-600','#C4642A','Estado ativo'],
+    ['Bronze claro','--bronze-300','#E9D3A8','Detalhes finos e números'],
+    ['Papel','--paper-50','#F2F6F8','Seções claras'],
+    ['Papel 2','--paper-100','#E4ECF0','Seção clara alternada'],
+    ['Tinta','--ink','#0A1A24','Texto em fundo claro'],
+    ['Texto secundário','--muted','#475F6D','Apoio em fundo claro'],
+    ['Texto em escuro','--text-on-dark','#EAF2F6','Corpo em fundo escuro'],
+    ['Apoio em escuro','--muted-on-dark','#9FB4C0','Apoio em fundo escuro'],
+    ['WhatsApp','--wa-500','#25D366','Exclusivo do botão de WhatsApp'],
+    ['Alerta','--alert-500','#E5624A','Erro de formulário']
+  ];
+  var host=document.getElementById('sw');
+  cores.forEach(function(c){
+    var b=document.createElement('button');b.className='sw';b.type='button';
+    b.setAttribute('aria-label','Copiar '+c[0]+' '+c[2]);
+    b.innerHTML='<i style="background:'+c[2]+'"></i><span><b>'+c[0]+'</b><code>'+c[2]+'</code><small>'+c[1]+' · '+c[3]+'</small></span>';
+    b.addEventListener('click',function(){
+      var t=document.getElementById('toast');
+      function ok(){t.textContent='Copiado: '+c[2];t.classList.add('on');setTimeout(function(){t.classList.remove('on')},1400)}
+      if(navigator.clipboard){navigator.clipboard.writeText(c[2]).then(ok,ok)}else{ok()}
+    });
+    host.appendChild(b);
+  });
+  document.querySelectorAll('#chips .chip').forEach(function(ch){
+    ch.addEventListener('click',function(){
+      document.querySelectorAll('#chips .chip').forEach(function(o){o.setAttribute('aria-pressed','false')});
+      ch.setAttribute('aria-pressed','true');
+    });
+  });
+  document.getElementById('css').textContent=':root{\n'+cores.map(function(c){return '  '+c[1]+':'+c[2]+';'}).join('\n')+'\n  --line:rgba(255,255,255,.1);\n  --font-display:\'Sora\',system-ui,sans-serif;\n  --font-body:\'Inter\',-apple-system,\'Segoe UI\',sans-serif;\n  --font-mono:\'JetBrains Mono\',ui-monospace,monospace;\n  --r-ctl:10px; --r-card:14px; --r-pill:999px;\n}';
+})();
+</script>
+</body>
+</html>

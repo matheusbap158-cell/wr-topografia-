@@ -1,0 +1,213 @@
+COPY - WR TOPOGRAFIA E PROJETOS LTDA (Belo Horizonte/MG)
+Landing page de demonstração. Público: construtoras, engenheiros, indústrias, empresas de energia solar e saneamento, proprietários rurais e loteadores. Tom: técnico, direto e humano ("clientes que viram amigos"). Sem promessa que não possa ser comprovada.
+Dados reais usados: Google Maps (nome, endereço, telefone, horário de fechamento, coordenadas do link), texto institucional e lista de serviços enviados pelo cliente em 08/10/2026, logo enviada pelo cliente.
+Estrutura de referência: a demo da TerraCad (ordem das seções, formulário que abre o WhatsApp). O texto é todo da WR.
+Não há nota nem avaliações do Google na fonte: por isso a página não tem seção de avaliações nem número de estrelas.
+
+=====================================================
+MENU
+Início | Serviços | Aerofotogrametria | Quem somos | Como trabalhamos | Contato
+Botão do topo: Solicitar orçamento
+
+=====================================================
+1. HERO
+Selo: Topografia e Projetos · Belo Horizonte/MG
+Título: Do terreno ao projeto, medido com precisão.
+Subtítulo: Topografia, aerofotogrametria e acompanhamento técnico de obras.
+Texto: Levantamentos, locação, georreferenciamento, mapeamento aéreo e equipe de topografia dentro da sua obra. Pontualidade, qualidade e honestidade no atendimento.
+Botão principal: Solicitar orçamento
+Botão secundário: Ver todos os serviços
+Linha de apoio: Atendimento em Belo Horizonte [REGIÃO ATENDIDA A CONFIRMAR]
+Painel do hero (guia rápido): Do que você precisa?
+Opções: Terreno rural | Obra | Mapa aéreo | Usina solar | Indústria | Saneamento
+Legenda do painel: Toque numa opção e veja os serviços indicados.
+
+=====================================================
+2. FAIXA DE NÚMEROS (só dados reais, tirados do texto do cliente)
+- 10+ | serviços de topografia
+- 3 | portes de obra acompanhados pela equipe integral de topografia: pequeno, médio e grande
+- 4 | produtos de aerolevantamento: ortomosaico, ortofoto, modelo do terreno e da superfície
+- Rural · Obras · Indústria · Energia | frentes de atuação
+
+=====================================================
+3. SERVIÇOS
+Seção: Serviços
+Título: Tudo o que o seu projeto precisa medir.
+Subtítulo: Serviços de topografia em quatro frentes. Escolha pelo que você precisa fazer.
+Filtro: Todos | Terreno rural | Obra | Mapa aéreo | Usina solar | Indústria | Saneamento
+
+FRENTE 1 - Levantamentos e mapeamento
+
+Card 1 - Levantamento planialtimétrico cadastral e mapeamento
+Texto: Registra a posição e a altura dos elementos do terreno e do relevo e entrega a base para o projeto, a obra e o cadastro do imóvel.
+Indicado para: Terreno, obra, projeto.
+
+Card 2 - Locação e nivelamento
+Texto: Leva o projeto do papel para o chão: marca em campo cada ponto e cada cota para a obra sair no lugar certo.
+Indicado para: Obra, indústria.
+
+Card 3 - Levantamento aerofotogramétrico
+Texto: Fotos aéreas sobrepostas viram mapa: ortomosaico, ortofoto e modelos digitais do terreno e da superfície. Veja o detalhe na seção Aerofotogrametria.
+Indicado para: Mapa aéreo, terreno grande, acompanhamento de obra.
+
+Card 4 - Levantamento planimétrico cadastral para desmembramento de área rural
+Texto: Levantamento da área com a finalidade de dividir uma propriedade rural em partes.
+Indicado para: Terreno rural.
+
+FRENTE 2 - Acompanhamento de obras
+
+Card 5 - Locação de equipe de topografia integral
+Texto: Uma equipe de topografia dedicada à sua obra, para acompanhamento, gerenciamento e fiscalização. Obras de pequeno, médio e grande porte.
+Indicado para: Obra, indústria.
+
+Card 6 - Terceirização de seção técnica de topografia
+Texto: Sua empresa sem montar nem manter um setor de topografia: a WR assume a seção técnica.
+Indicado para: Obra, indústria, saneamento.
+
+Card 7 - Acompanhamento em usina fotovoltaica
+Texto: Acompanhamento integral, gerenciamento e adequação dos serviços topográficos na implantação da usina.
+Indicado para: Usina solar.
+
+FRENTE 3 - Projetos e engenharia
+
+Card 8 - Projetos de terraplanagem
+Texto: Projeto de movimentação de terra do terreno, a partir do levantamento topográfico.
+Indicado para: Obra, loteamento, terreno.
+
+Card 9 - Notas de serviço para rede de saneamento básico
+Texto: Elaboração das notas de serviço que orientam a execução da rede em campo.
+Indicado para: Saneamento.
+
+Card 10 - Topografia industrial de alta precisão
+Texto: Topografia para ambientes industriais, onde a tolerância é pequena e a conferência precisa ser rigorosa.
+Indicado para: Indústria.
+
+FRENTE 4 - Referência e regularização
+
+Card 11 - Georreferenciamento de imóveis rurais
+Texto: Referencia o imóvel rural ao Sistema Geodésico Brasileiro, exigido por lei em casos como desmembramento e transferência. [DETALHE DO PROCESSO E DOCUMENTOS A CONFIRMAR]
+Indicado para: Terreno rural.
+
+Card 12 - Transporte de coordenadas e implantação de marcos topográficos
+Texto: Leva coordenadas de referência até o local do trabalho e fixa marcos que servem de base para levantamentos e obras.
+Indicado para: Terreno rural, obra, saneamento.
+
+Botão de cada card: Pedir orçamento deste serviço
+Aviso no fim: Não achou o que procura? A WR atua em outras áreas da agrimensura. Fale com a equipe. [LISTA COMPLETA DE "E OUTROS" A CONFIRMAR]
+Botão: Falar com a WR no WhatsApp
+
+=====================================================
+4. ONDE ATUAMOS (setores)
+Seção: Onde atuamos
+Título: Da propriedade rural à usina solar.
+Subtítulo: A mesma exigência de precisão, em cada tipo de projeto.
+Item 1 - Construção e obras: Locação, nivelamento e equipe de topografia para obras de pequeno, médio e grande porte.
+Item 2 - Propriedades rurais: Georreferenciamento e levantamentos para desmembramento de área rural.
+Item 3 - Indústria: Topografia industrial de alta precisão e equipe dedicada.
+Item 4 - Energia solar: Acompanhamento integral na implantação de usinas fotovoltaicas.
+Item 5 - Saneamento: Notas de serviço para rede de saneamento básico.
+Item 6 - Terraplanagem e loteamentos: Levantamento e projeto de movimentação de terra. [LOTEAMENTOS A CONFIRMAR]
+
+=====================================================
+5. AEROFOTOGRAMETRIA
+Seção: Aerofotogrametria
+Título: O terreno inteiro numa só imagem.
+Subtítulo: Tomadas aéreas sobrepostas viram quatro produtos, cada um para um uso.
+Produto 1 - Ortomosaico: A união das fotos numa única imagem do terreno, com escala uniforme e corrigida das deformações de uma foto comum.
+Produto 2 - Ortofoto: Foto aérea corrigida das deformações de perspectiva e de relevo: dá para medir distâncias e áreas direto na imagem, dentro da precisão do levantamento.
+Produto 3 - Modelo digital do terreno: O relevo do chão, sem construções nem vegetação.
+Produto 4 - Modelo digital de superfície: A superfície como ela é, com construções, árvores e tudo o que está sobre o terreno.
+Nota: O tipo de equipamento, a precisão e o formato dos arquivos entregues [A CONFIRMAR].
+Botão: Quero um mapa do meu terreno
+
+=====================================================
+6. QUEM SOMOS
+Seção: Quem somos
+Título: Wellington Ricardo.
+Subtítulo: Fundador da WR Topografia e Projetos.
+Texto 1: A WR reúne conhecimento e vivência para atender projetos dos mais diversos e ousados, em várias áreas da agrimensura.
+Texto 2: Essa experiência veio de muito esforço, dedicação e honestidade com os clientes. Muitos deles, ao final do trabalho, viram amigos.
+Texto 3: A agilidade vem de uma gestão integrada dos processos, para resolver cada exigência com pontualidade e qualidade.
+Dados do profissional: Formação [A CONFIRMAR] · Registro profissional (CREA ou CFT) [A CONFIRMAR] · Anos de atuação [A CONFIRMAR] · Responsável técnico [A CONFIRMAR]
+Foto: [FOTO DO WELLINGTON A CONFIRMAR]
+Valores (3 cards):
+- Conhecimento e vivência: Experiência nas diversas áreas da agrimensura.
+- Gestão integrada: Processos conectados para entregar com agilidade e pontualidade.
+- Honestidade: Relação transparente com o cliente, do orçamento à entrega.
+Botão: Falar com o Wellington
+
+=====================================================
+7. COMO TRABALHAMOS
+Seção: Como trabalhamos
+Título: Do primeiro contato à entrega.
+Passo 01 - Você conta o que precisa: Informe o serviço, o local e o prazo pelo formulário ou pelo WhatsApp.
+Passo 02 - Alinhamos o escopo: Entendemos o projeto e combinamos o que será feito e em quanto tempo.
+Passo 03 - Equipe em campo: A equipe vai ao local com os equipamentos e executa o serviço.
+Passo 04 - Entrega dos dados: Você recebe o resultado do trabalho. [FORMATO E DOCUMENTOS DE ENTREGA A CONFIRMAR]
+Nota: Etapas gerais de atendimento [PROCESSO DA WR A CONFIRMAR]
+Botão: Solicitar orçamento
+
+=====================================================
+8. ORÇAMENTO (formulário que abre o WhatsApp)
+Seção: Orçamento
+Título: Conte sobre o seu projeto.
+Subtítulo: Preencha e continue a conversa pelo WhatsApp, já com as informações do seu projeto.
+Campos: Nome | Serviço (os 12 serviços e "Outro / não sei qual") | Tipo de local (terreno rural, obra, indústria, usina solar, rede de saneamento, outro) | Cidade do serviço | Área ou tamanho aproximado (opcional) | Detalhes (opcional)
+Botão: Enviar pelo WhatsApp
+Aviso: Ao enviar, abrimos o WhatsApp com a sua mensagem pronta. Nenhum dado fica guardado neste site.
+
+=====================================================
+9. DÚVIDAS
+Pergunta: Que tipo de projeto a WR atende?
+Resposta: Obras (a equipe integral acompanha obras de pequeno, médio e grande porte), propriedades rurais, indústrias, redes de saneamento e usinas solares.
+Pergunta: Como peço um orçamento?
+Resposta: Pelo formulário desta página ou direto no WhatsApp. Informe o serviço, o local e o prazo.
+Pergunta: Não sei qual serviço eu preciso. E agora?
+Resposta: Use o guia no topo da página ou escolha "Outro / não sei qual" no formulário. A equipe orienta você.
+Pergunta: Quais regiões vocês atendem?
+Resposta: [REGIÃO ATENDIDA A CONFIRMAR]
+Pergunta: Quanto custa e qual o prazo?
+Resposta: Depende do serviço, da área e das condições do local. [VALORES E PRAZOS A CONFIRMAR]
+Pergunta: O que eu recebo no final do serviço?
+Resposta: [ENTREGAS A CONFIRMAR]
+
+=====================================================
+10. CONTATO
+Seção: Contato
+Título: Fale com a WR.
+Endereço: R. Nuno Tristão, 160 · Taquaril · Belo Horizonte/MG · CEP 30295-230
+Telefone: (31) 99140-1391 [CONFIRMAR SE É WHATSAPP]
+Horário: [HORÁRIO A CONFIRMAR] O Google Maps indica fechamento às 18h30.
+Instagram: [INSTAGRAM A CONFIRMAR]
+Botão: Chamar no WhatsApp
+
+=====================================================
+11. CHAMADA FINAL
+Título: Seu projeto no lugar certo, do primeiro ponto à entrega.
+Texto: Peça o orçamento e fale direto com a equipe da WR Topografia e Projetos.
+Botão: Solicitar orçamento
+
+=====================================================
+RODAPÉ
+WR Topografia e Projetos Ltda. Belo Horizonte/MG.
+Contato: (31) 99140-1391
+Endereço: R. Nuno Tristão, 160 · Taquaril · Belo Horizonte/MG
+CNPJ [A CONFIRMAR] · Registro da empresa no CREA/CFT [A CONFIRMAR]
+Site produzido por Connect Alpha
+
+=====================================================
+PENDÊNCIAS [A CONFIRMAR]
+1. Nota e avaliações do Google (seção de avaliações entra quando houver)
+2. Sobrenome, formação, registro profissional (CREA ou CFT) e anos de atuação do Wellington; foto dele
+3. Região atendida; valores e prazos
+4. Entregas por serviço (formatos, ART, memorial, plantas)
+5. Horário completo; Instagram; confirmar que (31) 99140-1391 é WhatsApp
+6. Lista do "e outros" da relação de serviços do cliente
+7. Fotos de campo, equipamentos, drone e obras (e autorização de uso). Sem elas a página usa ilustração topográfica própria
+8. Os serviços são mais de 10 (a faixa diz "10+"): o item "Levantamento Planialtimétrico Cadastral, Locação e Nivelamento e Mapeamento" do texto do cliente foi dividido em dois cards. Conferir com o cliente
+9. Descrições dos serviços são explicações gerais do que cada um é; conferir se o cliente concorda com o enunciado
+10. Regras de publicidade do CREA/CFT: revisar o texto final com o responsável técnico
+
+11. O texto do cliente não diz que o aerolevantamento é feito por drone: o site fala em "mapeamento aéreo" até ele confirmar o equipamento (drone, outro).
+12. CNPJ, registro da empresa no CREA/CFT, responsável técnico e credenciamento no INCRA (georreferenciamento): pedir e conferir as regras do CREA/CFT.
+13. Textos de apoio que existem só no site: "Perguntas frequentes", três itens ao lado do formulário ("Escolha um dos serviços ou Outro / não sei qual", "A mensagem chega pronta no WhatsApp da WR", telefone de contato) e a legenda "Ilustração esquemática, sem escala".
